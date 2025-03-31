@@ -4,15 +4,15 @@ import React from "react";
 
 const DropDown=()=>{
   return(
-<div class="btn-group d-sm-flex d-md-none">
-  <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+<div className="btn-group d-sm-flex d-md-none">
+  <button type="button" className="btn  dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
   <i className="fa-solid fa-bars text-white"></i>
   </button>
-  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start bg-black ">
-    <li><a class="dropdown-item  text-white" href="#">Home</a></li>
-    <li><a class="dropdown-item  text-white" href="#">About</a></li>
-    <li><a class="dropdown-item  text-white" href="#">Services</a></li>
-    <li><a class="dropdown-item  text-white" href="#">Contact</a></li>
+  <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start bg-black ">
+    <li><a className="dropdown-item  text-white" href="#">Home</a></li>
+    <li><a className="dropdown-item  text-white" href="#">About</a></li>
+    <li><a className="dropdown-item  text-white" href="#">Services</a></li>
+    <li><a className="dropdown-item  text-white" href="#">Contact</a></li>
   </ul>
 </div>
   )

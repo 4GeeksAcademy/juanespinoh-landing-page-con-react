@@ -5,15 +5,15 @@ const cards = [1, 2, 3, 4];
 const CardsCntainer = () => {
   return (
     <div className="col-12 col-md-3 py-2 ">
-      <div class="card " >
+      <div className="card " >
     
-        <div class="card-body ">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+        <div className="card-body ">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">
+          <a href="#" className="btn btn-primary">
             Call to action
           </a>
         </div>
